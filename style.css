@@ -1,0 +1,28 @@
+body {
+    background-image: url('bg-home.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0% 44%;
+    background-size: 100%
+}
+
+.title {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-shadow:5px 5px 10px black
+}
+
+.wrapper {
+    padding: 2em;
+}
+
+.btn-bonus{
+    font-size: 120%;
+    margin-left: 2em;
+    border-radius: 25px;
+}
+
+#btn-list {
+    margin-top: 10%;
+}
