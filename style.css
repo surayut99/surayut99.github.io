@@ -1,5 +1,5 @@
 body {
-    background-image: url('bg-home.jpg');
+    background-image: url('pic/bg-home.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: 0% 44%;
@@ -47,3 +47,26 @@ p {
     color: white;
     padding-left: 2%;
 }
+
+#page-name {
+    font-size: 15vh;
+}
+
+#pre {
+    font-size: 8vh;
+}
+
+@media only screen and (max-width: 700px) {
+    p {
+        font-size: 2vh;
+    }
+    .welcome {
+        font-size: 3vh;
+    }
+    #page-name{
+        font-size: 4vh;
+    }
+    #pre {
+        font-size: 3vh;
+    }
+  }
