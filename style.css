@@ -18,11 +18,15 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, .6);
     padding: 1% 0% 1% 0%;
-    border-radius: 25px;
     width: fit-content;
     height: fit-content;
+}
+
+.dropshadow {
+    background-color: rgba(0, 0, 0, .6);
+    
+    border-radius: 25px;
 }
 
 .btn-bonus{
@@ -42,9 +46,4 @@ p {
     font-family: 'Courier New', Courier, monospace;
     color: white;
     padding-left: 2%;
-}
-
-.bar-list {
-    background-color: rgba(0, 0, 0, .6);
-    padding: 1em 0em 1em 1em;
 }

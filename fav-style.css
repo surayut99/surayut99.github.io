@@ -1,0 +1,50 @@
+body {
+    background-image: url('bg-fav-01.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0% 44%;
+    background-size: 150%
+}
+
+.title {
+    color: white;
+    padding: 2em 0 2em 2em;
+}
+
+.bar-list {
+    background-color: rgba(0, 0, 0, .6);
+    padding: 1em 0em 1em 1em;
+}
+
+.my-content {
+    color: blanchedalmond;
+    background-color: rgba(0, 0, 0, .5);
+    margin: 0 20vh 0 2%;
+    border-radius: 15px;
+}
+
+img {
+    margin-left: 3vw;
+    height: 350px;
+    width: 230px
+}
+
+p {
+    padding-left: 2%;
+    color: coral;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.dropshadow {
+    text-shadow:5px 5px 10px black;
+}
+
+.center-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    filter: drop-shadow(5px 5px 4px #000000);
+}
