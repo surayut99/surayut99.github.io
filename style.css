@@ -3,7 +3,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: 0% 44%;
-    background-size: 100%
+    background-size: 150%
 }
 
 .title {
@@ -13,16 +13,38 @@ body {
     text-shadow:5px 5px 10px black
 }
 
-.wrapper {
-    padding: 2em;
+.center-contents {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, .6);
+    padding: 1% 0% 1% 0%;
+    border-radius: 25px;
+    width: fit-content;
+    height: fit-content;
 }
 
 .btn-bonus{
-    font-size: 120%;
-    margin-left: 2em;
+    font-size: 2vh;
+    font-weight: bold;
+    margin-left: 1em;
+    margin-right: 1em;
     border-radius: 25px;
 }
 
 #btn-list {
     margin-top: 10%;
+}
+
+p {
+    font-size: 3vh;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding-left: 2%;
+}
+
+.bar-list {
+    background-color: rgba(0, 0, 0, .6);
+    padding: 1em 0em 1em 1em;
 }
