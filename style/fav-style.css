@@ -1,5 +1,5 @@
 body {
-    background-image: url('pic/bg-fav-01.jpg');
+    background-image: url('../pic/bg-fav-01.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: 0% 44%;
@@ -9,11 +9,6 @@ body {
 .title {
     color: white;
     padding: 2em 0 2em 2em;
-}
-
-.bar-list {
-    background-color: rgba(0, 0, 0, .6);
-    padding: 1em 0em 1em 1em;
 }
 
 .my-content {
