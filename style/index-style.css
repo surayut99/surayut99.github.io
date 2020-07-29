@@ -6,6 +6,30 @@ body {
     background-size: 150%
 }
 
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #ae9373;
+    border-color: #ae9373;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #7e6b54;
+    border-color: #7e6b54;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #019ba3;
+    border-color: #019ba3;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #017176;
+    border-color: #017176;
+}
+
 .title {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

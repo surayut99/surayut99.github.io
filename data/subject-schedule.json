@@ -1,0 +1,30 @@
+[
+    {
+        "day": "Sunday",
+        "detail": ""
+    },
+    {
+        "day": "Monday",
+        "detail": "Seminar"
+    },
+    {
+        "day": "Tuesday",
+        "detail": "WebTech - Lec, WebTech - Lab"
+    },
+    {
+        "day": "Wednesday",
+        "detail": "IP, OS, SA - Lec, SA - Lab"
+    },
+    {
+        "day": "Thursday",
+        "detail": "SE - Lab, SE - Lec"
+    },
+    {
+        "day": "Friday",
+        "detail": "IP, OS"
+    },
+    {
+        "day": "Saturday",
+        "detail": ""
+    }
+]

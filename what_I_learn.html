@@ -12,17 +12,17 @@
     <link rel="stylesheet" href="style/bar-list-style.css">
 </head>
 
-<body onload="addCourse(), changeCourseColor(), changeDayColor()">
+<body onload="initialize()">
     <div class="bar-list">
         <ul class="nav nav-pills">
             <li class="nav-item">
                 <a class="nav-link" href="index.html">HOME</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="fav-page.html">FAVORITE MOVIES</a>
+                <a class="nav-link" href="fav-page.html">FAVOURITE MOVIES</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="#">MY LEARNING</a>
+                <a class="nav-link active" href="#">COURSES SCHEDULE</a>
             </li>
         </ul>
     </div>
@@ -45,13 +45,26 @@
                 </tr>
             </thead>
             <tbody>
+                <tr id="Sunday"></tr>
                 <tr id="Monday"></tr>
                 <tr id="Tuesday"></tr>
                 <tr id="Wednesday"></tr>
                 <tr id="Thursday"></tr>
                 <tr id="Friday"></tr>
+                <tr id="Saturday"></tr>
             </tbody>
         </table>
+    </div>
+
+    <div class="detail-collector">
+        <h1 id="topic" class="display-1">Here's What I Learn</h1>
+        <div class="list-content">
+            <div id="list-subject" class="list-group option scroll"></div>
+            <div id="content-subject" class="content option scroll">
+                <h1>Let's see the interested things.</h1>
+            </div>
+        </div>
+
     </div>
 
     <!-- JS, Popper.js, and jQuery -->
@@ -64,8 +77,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+    <script src="script/intialize_course_page.js"></script>
     <script src="script/course-generator.js"></script>
     <script src="script/change-color.js"></script>
+    <script src="script/detail-loader.js"></script>
 </body>
 
 </html>

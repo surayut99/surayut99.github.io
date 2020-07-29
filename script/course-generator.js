@@ -1,10 +1,11 @@
+var holidays = {}
 var mon = { "Seminar": [0, 6] }
 var tue = { "WebTech - Lec": [0, 4], "WebTech - Lab": [7, 4] }
 var wed = { "IP": [4, 3], "OS": [8, 4], "SA - Lec": [12, 4], "SA - Lab": [16, 4] }
 var thu = { "SE - Lab": [0, 4], "SE - Lec": [6, 4] }
 var fri = { "IP": [4, 3], "OS": [8, 4] }
 
-var week = { "Monday": mon, "Tuesday": tue, "Wednesday": wed, "Thursday": thu, "Friday": fri }
+var week = { "Sunday": holidays, "Monday": mon, "Tuesday": tue, "Wednesday": wed, "Thursday": thu, "Friday": fri, "Saturday": holidays }
 var defaultSapn = 2
 
 function addContent(colspan, data) {

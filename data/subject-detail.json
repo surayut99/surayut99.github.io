@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Seminar",
+        "subject": "Seminar",
+        "id": "01418497",
+        "des": "Presentation and discussion on current interesting topics in computer science at the bachelor’s degree level.",
+        "section": "5",
+        "credit": "1",
+        "ref": "https://cs.sci.ku.ac.th/curriculum/bachelor/y2560/course/c01418497"
+    },
+    {
+        "title": "WebTech - Lec, WebTech - Lab",
+        "subject": "Web Technology and Web Services",
+        "id": "01418442",
+        "des": "Principles of Web technology and services. Standard specification of technology. Architecture and components. Functionalities and mechanisms of Web services systems. Development of Web technology packages. API’s functionalities and configurations.",
+        "section": "1, 11",
+        "credit": "2, 1",
+        "ref": "https://cs.sci.ku.ac.th/curriculum/bachelor/y2560/course/c01418442"
+    },
+    {
+        "title": "IP",
+        "subject": "Intellectual Properties and Professional Ethics",
+        "id": "01418341",
+        "des": "Categories of intellectual property. Acquisition of copyright. Exclusive rights of copyright holder. Copyright infringement. Fair use. Free software license. Open source software license. Shrink wrap license. Creative Commons. Patent. Trade mark and service mark. Privacy policy. Computer crime. Case studies.",
+        "section": "1",
+        "credit": "3",
+        "ref": "https://cs.sci.ku.ac.th/curriculum/bachelor/y2560/course/c01418341"
+    },
+    {
+        "title": "OS",
+        "subject": "Operating Systems",
+        "id": "01418331",
+        "des": "Development of computer architecture and operating systems. Operating system structure. Processes and threads. Scheduling. Deadlocks. Memory hierarchy. Memory management. Virtual memory. File system management. Input/output system management. Security. Protection. Distributed operating systems.",
+        "section": "1",
+        "credit": "4",
+        "ref": "https://cs.sci.ku.ac.th/curriculum/bachelor/y2560/course/c01418331"
+    },
+    {
+        "title": "SA - Lec, SA - Lab",
+        "subject": "System Analysis and Design",
+        "id": "01418321",
+        "des": "Basic analysis steps. System analysis tools. Systems flowchart. Decision table and decision tree. Feasibility study. Cost effective analysis. Input, output and design. Computer process design. Documentation. Implementation and evaluation. Proving the design. Case studies.",
+        "section": "1, 11",
+        "credit": "2, 1",
+        "ref": "https://cs.sci.ku.ac.th/curriculum/bachelor/y2560/course/c01418321"
+    },
+    {
+        "title": "SE - Lec, SE - Lab",
+        "subject": "Introduction to Software Engineering",
+        "id": "01418471",
+        "des": "Software engineering principles. Software process models. Requirement engineering. Software modeling. Software design. Software architecture. Pattern-based design. User interfaces. Software verification and validation. Quality assurance. Software project management.",
+        "section": "1, 11",
+        "credit": "2, 1",
+        "ref": "https://cs.sci.ku.ac.th/curriculum/bachelor/y2560/course/c01418471"
+    }
+]

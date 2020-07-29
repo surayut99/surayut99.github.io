@@ -3,19 +3,32 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: 0% 44%;
-    background-size: 150%
+    background-size: 150%;
+
+    width: fit-content;
 }
 
-th {
+th, td {
     width: 6em;
     text-align: center;
     color: rgb(255, 255, 255);
-}
-
-td {
     vertical-align: middle;
+}
+/* 
+td {
+    
     text-align: center;
     color: rgb(255, 255, 255);
+} */
+
+a:not([href]) {
+    text-shadow: none;
+    font-size: 1.5em;
+}
+
+.option {
+    height: 200px;
+
 }
 
 .table thead th {
@@ -30,15 +43,98 @@ td {
 .table {
     table-layout: fixed;
     background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    width: 60%;
 }
 
-.collector {
+.collector, .detail-collector{
     margin: 3em 3em 3em 3em;
 }
 
+.detail-collector{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 1em;
+    margin: auto;
+    margin-bottom: 2em;
+    width: 60%;
+}
+
+.content{
+    border-radius: 10px; 
+    margin-left: 1%;
+    padding: 1% 1% 1% 1%;
+    width: 70%;
+    height: 200px;
+    border: 5px solid gray;
+    background-color: white;
+    
+}
+
+#list-subject > a {
+    width: 200px;
+}
+
+#topic {
+    margin-bottom: 1%;
+    color: aliceblue;
+    text-shadow: 5px 5px 10px black;
+}
+
+.scroll { 
+    overflow-x: hidden; 
+    overflow-y: auto; 
+    text-align:justify;
+}
+
+.content > h1 {
+    font-size: 1.5em;
+}
+
+.content > h2 {
+    font-size: 1em;
+}
+
+.content > p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 98%;
+}
+
+.list-group-item-action {
+    text-shadow: none
+}
+
+.list-content {
+    display: flex; justify-content:left
+}
+
 @media only screen and (max-width: 700px) {
-    .collector {
-        transform: rotate(90deg);
-        margin: 3em 3em 3em 3em;
+    .detail-collector {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .list-content {
+        display: block;
+    }
+
+    #topic {
+        font-size: 300%;
+    }
+
+    #list-subject > a{
+        width: 100%;
+    }
+
+    #list-subject {
+        margin: 1em 0 1em 0;
+    }
+
+    .option {
+        height: auto;
     }
 }

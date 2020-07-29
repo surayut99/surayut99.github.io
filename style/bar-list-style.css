@@ -2,3 +2,13 @@
     background-color: rgba(0, 0, 0, .6);
     padding: 1em 0em 1em 1em;
 }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    font-weight: bold;
+    border-radius: 25px;
+    text-shadow: none
+}
+a {
+    FONT-WEIGHT: bold;
+    text-shadow: 5px 5px 10px black;
+}

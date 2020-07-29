@@ -8,18 +8,16 @@ body {
 
 .title {
     color: white;
-    padding: 2em 0 2em 2em;
 }
 
 .my-content {
     color: blanchedalmond;
     background-color: rgba(0, 0, 0, .75);
-    margin: 0 20vh 0 2%;
+    margin-left: 2%;
     border-radius: 15px;
 }
 
 img {
-    margin-left: 3vw;
     height: 350px;
     width: 230px
 }
@@ -34,6 +32,13 @@ p {
 
 .dropshadow {
     text-shadow:5px 5px 10px black;
+}
+
+#ref-1 {
+    color:black;
+    text-shadow:5px 5px 10px black;
+    font-weight: bolder;
+    font-style: italic;
 }
 
 .center-btn {
@@ -82,5 +87,9 @@ p {
 
     #des {
         font-size: 1.5em;
+    }
+
+    #ref-content {
+        text-align: center;
     }
 }
