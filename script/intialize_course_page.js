@@ -3,6 +3,4 @@ function initialize() {
     editHeadCell()
     editDataCell()
     readFile()
-
-    console.log(schedule);
 }
