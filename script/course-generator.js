@@ -9,6 +9,9 @@ var week = { "Sunday": holidays, "Monday": mon, "Tuesday": tue, "Wednesday": wed
 var defaultSapn = 2
 
 function addContent(colspan, data) {
+    if (data !== "") {
+        return "<td colspan=\"" + colspan + "\" style=\"cursor: pointer\" onclick=\"clickOnSubjectOnTable(this.innerHTML)\">" + data + "</td>"
+    }
     return "<td colspan=\"" + colspan + "\">" + data + "</td>"
 }
 

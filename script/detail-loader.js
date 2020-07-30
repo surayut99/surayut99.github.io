@@ -30,6 +30,13 @@ function createTag(tag, text) {
     return newTag
 }
 
+function clickOnSubjectOnTable(subject) {
+    document.getElementById('list-subject').innerHTML = ""
+    document.getElementById('topic').innerHTML = "Here's What I Learn"
+    document.getElementById('topic').style.color = "white"
+    showDetail(subject)
+}
+
 function showDetail(subject) {
     document.getElementById('content-subject').scrollTop = 0
 

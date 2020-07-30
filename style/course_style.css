@@ -8,18 +8,24 @@ body {
     width: fit-content;
 }
 
+tbody > tr > th:hover, td:hover{
+    filter:grayscale(80%)
+}
+
+tbody > tr > th:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+thead :not(#empty){
+    font-size: .95em;
+}
+
 th, td {
     width: 6em;
     text-align: center;
     color: rgb(255, 255, 255);
     vertical-align: middle;
 }
-/* 
-td {
-    
-    text-align: center;
-    color: rgb(255, 255, 255);
-} */
 
 a:not([href]) {
     text-shadow: none;
@@ -44,7 +50,7 @@ a:not([href]) {
     table-layout: fixed;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
-    width: 60%;
+    width: 80%;
 }
 
 .collector, .detail-collector{
@@ -57,14 +63,14 @@ a:not([href]) {
     padding: 1em;
     margin: auto;
     margin-bottom: 2em;
-    width: 60%;
+    width: 70%;
 }
 
 .content{
     border-radius: 10px; 
     margin-left: 1%;
     padding: 1% 1% 1% 1%;
-    width: 70%;
+    width: 100%;
     height: 200px;
     border: 5px solid gray;
     background-color: white;
@@ -72,7 +78,7 @@ a:not([href]) {
 }
 
 #list-subject > a {
-    width: 200px;
+    width: auto;
 }
 
 #topic {
@@ -98,6 +104,8 @@ a:not([href]) {
 .content > p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 98%;
+    word-wrap: break-word;
+    word-break: keep-all;
 }
 
 .list-group-item-action {
@@ -105,7 +113,7 @@ a:not([href]) {
 }
 
 .list-content {
-    display: flex; justify-content:left
+    display: flex; justify-content:center
 }
 
 @media only screen and (max-width: 700px) {
