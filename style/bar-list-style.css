@@ -8,7 +8,21 @@
     border-radius: 25px;
     text-shadow: none
 }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #c28550;
+}
+
 a {
     FONT-WEIGHT: bold;
     text-shadow: 5px 5px 10px black;
+}
+
+.nav-pills .nav-link, .nav-pills .show>.nav-link {
+    color: #d6b58c;
+}
+
+.nav-pills:hover .nav-link:hover, .nav-pills:hover .show>.nav-link:hover {
+    color: #fff;
 }

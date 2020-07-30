@@ -33,3 +33,11 @@ function editDataCell() {
         }
     }
 }
+
+function changeColorMouseOver(obj, color) {
+    obj.style.backgroundColor = color
+}
+
+function changeColorMouseOut(obj) {
+    obj.style.backgroundColor = "white"
+}

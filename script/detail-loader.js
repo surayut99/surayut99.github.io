@@ -95,6 +95,8 @@ function showSubjectList(obj) {
         var newTag = createTag('a', details[i])
         newTag.className += classStyle
         newTag.addEventListener('click', function () { showDetail(this.innerHTML) })
+        newTag.addEventListener('mouseover', function () { changeColorMouseOver(this, obj.style.color) })
+        newTag.addEventListener('mouseout', function () { changeColorMouseOut(this) })
         listSubject.appendChild(newTag)
     }
 
