@@ -88,7 +88,7 @@ function showSubjectList(obj) {
     }
 
     document.getElementById('content-subject').innerHTML = ""
-    document.getElementById('content-subject').appendChild(createTag('h1', "Let's see subject detail"))
+    document.getElementById('content-subject').appendChild(createTag('h1', "Select subject on the left tab to see more detail."))
     details = details.split(', ')
 
     for (var i = 0; i < details.length; i++) {

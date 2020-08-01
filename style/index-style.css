@@ -3,32 +3,33 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: 0% 44%;
-    background-size: 150%
+    background-size: 150%;
 }
 
-.btn-secondary:hover {
+.btn-secondary:hover, button.btn.btn-secondary.btn-bonus:focus{
     color: #fff;
     background-color: #ae9373;
     border-color: #ae9373;
 }
 
-.btn-secondary {
+.btn-secondary, button.btn.btn-secondary.btn-bonus:active{
     color: #fff;
     background-color: #7e6b54;
     border-color: #7e6b54;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, button.btn.btn-primary.btn-bonus:focus{
     color: #fff;
     background-color: #019ba3;
     border-color: #019ba3;
 }
 
-.btn-primary {
+.btn-primary, button.btn.btn-primary.btn-bonus:active {
     color: #fff;
     background-color: #017176;
     border-color: #017176;
 }
+
 
 .title {
     text-align: center;
@@ -38,13 +39,10 @@ body {
 }
 
 .center-contents {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     padding: 1% 0% 1% 0%;
     width: fit-content;
     height: fit-content;
+    margin: auto;
 }
 
 .dropshadow {
@@ -78,6 +76,29 @@ p {
 
 #pre {
     font-size: 8vh;
+}
+
+footer {
+    text-align: center;
+    text-shadow: 0px 0px 10px black;
+    color: white;
+    padding: 10px;
+}
+
+footer > h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+footer > h5 {
+    font-size: 1.2em;
+    font-weight: 350;
+}
+
+main {
+    display: flex;
+    vertical-align: middle;
+    min-height: calc(100vh - 96.8px)
 }
 
 @media only screen and (max-width: 700px) {

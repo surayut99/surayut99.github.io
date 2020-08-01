@@ -53,7 +53,7 @@ a:not([href]) {
 }
 
 .collector, .detail-collector{
-    margin: 3em 3em 3em 3em;
+    margin: 1em
 }
 
 .detail-collector{
